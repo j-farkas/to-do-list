@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address Book</title>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Address Book</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <hr>
+          <h2>Add a Contact:</h2>
+          <form id="new-task">
+            <div class="form-group">
+              <label for="new-task">Task to add</label>
+              <input type="text"  class="form-control" id="new-task">
+            </div>
+            <button type="submit" class="btn-primary">Add</button>
+          </form>
+          <hr>
+          <h2>Tasks:</h2>
+          <ul id="tasks">
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="show-task">
+            <p>Task: <span class="task-name"></span></p>
+             <input class="task-completed" type="checkbox"> <br>
+            <div id="buttons">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
